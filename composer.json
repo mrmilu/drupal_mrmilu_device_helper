@@ -1,0 +1,8 @@
+{
+    "name": "mrmilu/mrmilu_fields",
+    "description": "Provides functionality related to device detection using MobileDetect library",
+    "type": "drupal-mrmilu-module",
+    "require": {
+        "mobiledetect/mobiledetectlib": "^2.8"
+    }
+}
