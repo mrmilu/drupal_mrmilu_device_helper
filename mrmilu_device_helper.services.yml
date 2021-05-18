@@ -1,0 +1,8 @@
+services:
+  device_helper:
+    class: Drupal\mrmilu_device_helper\Helper\DeviceHelperService
+  cache_context.device_type:
+    class: Drupal\mrmilu_device_helper\Cache\Context\DeviceTypeCacheContext
+    arguments: [ '@device_helper' ]
+    tags:
+      - { name: cache.context }
