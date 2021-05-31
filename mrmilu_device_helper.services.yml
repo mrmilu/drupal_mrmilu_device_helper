@@ -1,8 +1,13 @@
 services:
   device_helper:
-    class: Drupal\mrmilu_device_helper\Helper\DeviceHelperService
+    class: Drupal\mrmilu_device_helper\DeviceHelperService
   cache_context.device_type:
     class: Drupal\mrmilu_device_helper\Cache\Context\DeviceTypeCacheContext
     arguments: [ '@device_helper' ]
     tags:
       - { name: cache.context }
+  device_helper.twig_extension:
+    class: Drupal\mrmilu_device_helper\Twig\DeviceHelperTwigExtension
+    arguments: [ '@device_helper' ]
+    tags:
+      - { name: twig.extension }

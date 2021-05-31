@@ -1,6 +1,6 @@
 name: Mr.Milu Device Helper
 description: Provides functionality related to device detection using MobileDetect library
 package: Mr. Milú
-version: 1.0.2
+version: 1.0.3
 type: module
 core_version_requirement: ^8.8 || ^9

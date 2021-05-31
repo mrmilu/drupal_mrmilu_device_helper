@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\mrmilu_device_helper\Helper;
+namespace Drupal\mrmilu_device_helper;
 
 use Mobile_Detect;
 

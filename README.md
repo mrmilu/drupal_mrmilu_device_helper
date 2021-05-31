@@ -10,6 +10,15 @@ You can call it directly or with dependency injection
 \Drupal::service('device_helper')->isMobile();
 ```
 
+## Twig
+You can use same function in twig
+```twig
+{{ get_current_device() }}
+{{ is_desktop() }}
+{{ is_tablet() }}
+{{ is_mobile() }}
+```
+
 ## Cache
 You can add device type context to render arrays
 ````php

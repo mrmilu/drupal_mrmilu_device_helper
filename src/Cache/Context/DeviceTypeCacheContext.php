@@ -4,7 +4,7 @@ namespace Drupal\mrmilu_device_helper\Cache\Context;
 
 use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Core\Cache\Context\CacheContextInterface;
-use Drupal\mrmilu_device_helper\Helper\DeviceHelperService;
+use Drupal\mrmilu_device_helper\DeviceHelperService;
 
 class DeviceTypeCacheContext implements CacheContextInterface {
 
